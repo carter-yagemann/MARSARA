@@ -1,0 +1,25 @@
+package provgraph;
+
+public enum NodeProperty {
+    PATH,
+    NORMALIZED_PATH,
+    PPID,
+    PID,
+    CMD_LINE,
+    SIZE,
+    SRC_PORT,
+    SRC_IP,
+    DST_PORT,
+    DST_IP,
+    DIRECTION,
+    PROTOCOL,
+    HASH,
+    OBJECT_TYPE,
+    TYPE_ID,
+    USER_NAME,
+    NAME,
+    ID, CREATED_TIME,
+    TERMINATE_TIME,
+    HOP_COUNT,
+    TERMINATE,
+}

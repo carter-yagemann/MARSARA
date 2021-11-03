@@ -1,0 +1,17 @@
+package event;
+
+public enum GraphEventType {
+    PROCESS_LAUNCH,
+    MODULE_LOAD,
+    MODULE_UNLOAD,
+    FILE_CREATE,
+    FILE_OPEN,
+    FILE_UNLINK,
+    FILE_RENAME,
+    FILE_CLOSE,
+    FILE_WRITE,
+    NETWORK_ACCEPT,
+    NETWORK_CONNECT,
+    NETWORK_CLOSE,
+    DUMMY,
+}
